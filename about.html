@@ -2,259 +2,93 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-raw-concrete">
-  <title>발산 마사지 이벤트 | 정보 — 브루탈리즘 웰니스</title>
-  <meta name="description" content="발산 마사지 이벤트에 대한 상세 정보 – 마사지 프로토콜, 과학적 근거, 예약 절차 및 이용약관. 발산 지역 최초의 데이터 기반 마사지 서비스.">
-  <meta name="keywords" content="발산 마사지 이벤트, 발산 마사지 정보, 마사지 프로토콜, 스포츠 마사지, 근막이완, 발산 지역, 예약 방법">
+  <title>발산 마사지 이벤트 – 정보</title>
+  <meta name="description" content="발산 지역 마사지 이벤트에 대한 상세 정보와 상황별 적용 가이드를 제공합니다. 목표에 맞는 선택 기준을 빠르게 파악하고, 현장의 핵심 포인트를 직접 확인해 보세요.">
+  <meta name="keywords" content="발산 마사지, 이벤트 정보, 마사지 세부 조건, 발산 지역 안내, 마사지 체크리스트">
   <link rel="canonical" href="https://balsan-body-tip.node-link.shop/about.html">
-  <meta property="og:title" content="발산 마사지 이벤트 | 브루탈리즘 웰니스 – 정보">
-  <meta property="og:description" content="발산 마사지 이벤트의 모든 정보: 마사지 과학, 가이드라인, FAQ 및 지역 안내. 공식 문서 기반의 투명한 서비스.">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="발산 마사지 이벤트 – 상세 정보">
+  <meta property="og:description" content="발산 지역에서 진행되는 마사지 이벤트의 구체적인 내용과 상황별 적용 방안을 확인하세요.">
   <meta property="og:url" content="https://balsan-body-tip.node-link.shop/about.html">
-  <meta name="format-detection" content="telephone=no">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    /* ===== 브루탈리즘 아방가르드 리셋 & 변수 ===== */
-    :root {
-      --bg-primary: #1e1e1e;
-      --bg-secondary: #2a2a2a;
-      --bg-card: #333;
-      --text-primary: #f0e6d0;
-      --text-secondary: #b8a88a;
-      --accent: #e8b84a;
-      --accent-dark: #c49a3a;
-      --border: #4a4a4a;
-      --border-accent: #e8b84a;
-      --font-display: 'Space Grotesk', sans-serif;
-      --font-body: 'IBM Plex Sans KR', sans-serif;
-      --font-size-h1: clamp(2.4rem, 6vw, 4rem);
-      --font-size-h2: clamp(1.8rem, 4vw, 2.8rem);
-      --font-size-h3: clamp(1.2rem, 2.5vw, 1.6rem);
-      --font-size-body: clamp(1rem, 1.8vw, 1.125rem);
-      --spacing-unit: 1rem;
-      --container-max: 1280px;
-      --border-radius: 0;
-      --brutal-shadow: 8px 8px 0 rgba(0,0,0,0.6);
-      --brutal-shadow-hover: 12px 12px 0 rgba(0,0,0,0.7);
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      background-color: var(--bg-primary);
-      color: var(--text-primary);
-      font-family: var(--font-body);
-      font-size: var(--font-size-body);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
-    a:hover { color: var(--text-primary); }
-    img { max-width: 100%; height: auto; display: block; }
-    ul, ol { list-style: none; padding-left: 0; }
-    /* ===== 타이포그래피 ===== */
-    h1, h2, h3, h4, .display-font { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; }
-    h1 { font-size: var(--font-size-h1); line-height: 1.1; margin-bottom: 1.5rem; text-transform: uppercase; color: var(--accent); }
-    h2 { font-size: var(--font-size-h2); line-height: 1.2; margin-bottom: 1.25rem; border-left: 6px solid var(--accent); padding-left: 1rem; }
-    h3 { font-size: var(--font-size-h3); line-height: 1.3; margin-bottom: 0.75rem; font-weight: 600; }
-    p { margin-bottom: 1.25rem; }
-    .text-accent { color: var(--accent); }
-    .text-secondary { color: var(--text-secondary); }
-    /* ===== 레이아웃 ===== */
-    .container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--spacing-unit); }
-    .section { padding: 4rem 0; }
-    .section-dark { background-color: var(--bg-secondary); }
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
-    .flex-center { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; }
-    .gap-1 { gap: 1rem; }
-    .gap-2 { gap: 2rem; }
-    .mt-1 { margin-top: 1rem; }
-    .mt-2 { margin-top: 2rem; }
-    .mt-3 { margin-top: 3rem; }
-    .mb-1 { margin-bottom: 1rem; }
-    .mb-2 { margin-bottom: 2rem; }
-    .text-center { text-align: center; }
-    .w-full { width: 100%; }
-    /* ===== 버튼 & 카드 ===== */
-    .btn {
-      display: inline-block;
-      padding: 0.9rem 2.5rem;
-      font-family: var(--font-display);
-      font-weight: 600;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      background-color: var(--accent);
-      color: var(--bg-primary);
-      border: 2px solid var(--accent);
-      cursor: pointer;
-      transition: all 0.2s ease;
-      box-shadow: var(--brutal-shadow);
-      text-align: center;
-    }
-    .btn:hover {
-      background-color: transparent;
-      color: var(--accent);
-      box-shadow: var(--brutal-shadow-hover);
-      transform: translate(-2px, -2px);
-    }
-    .btn-outline {
-      background: transparent;
-      color: var(--accent);
-      border-color: var(--accent);
-    }
-    .btn-outline:hover {
-      background-color: var(--accent);
-      color: var(--bg-primary);
-    }
-    .card {
-      background-color: var(--bg-card);
-      padding: 2rem;
-      border: 2px solid var(--border);
-      box-shadow: var(--brutal-shadow);
-      transition: all 0.2s;
-    }
-    .card:hover { border-color: var(--accent); box-shadow: var(--brutal-shadow-hover); transform: translate(-2px, -2px); }
-    .card-accent { border-left: 6px solid var(--accent); }
-    .stat-number { font-family: var(--font-display); font-size: 2.4rem; font-weight: 700; color: var(--accent); }
-    .stat-label { font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
-    /* ===== 네비게이션 (햄버거-메뉴 패턴) ===== */
-    .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background-color: var(--bg-primary);
-      border-bottom: 2px solid var(--border);
-      padding: 0.8rem 0;
-    }
-    .navbar .container { display: flex; align-items: center; justify-content: space-between; }
-    .navbar-brand { font-family: var(--font-display); font-weight: 700; font-size: 1.6rem; color: var(--accent); text-transform: uppercase; letter-spacing: -0.02em; }
-    .navbar-nav { display: flex; gap: 2rem; align-items: center; }
-    .navbar-nav a { font-family: var(--font-display); font-weight: 600; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-primary); padding: 0.5rem 0; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
-    .navbar-nav a:hover { border-bottom-color: var(--accent); color: var(--accent); }
-    .hamburger-menu {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-      gap: 4px;
-      background: none;
-      border: none;
-      padding: 0.5rem;
-    }
-    .hamburger-menu span {
-      display: block;
-      width: 28px;
-      height: 3px;
-      background-color: var(--accent);
-      transition: all 0.3s;
-    }
-    .mobile-nav {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100%;
-      background-color: var(--bg-secondary);
-      border-bottom: 2px solid var(--accent);
-      padding: 1.5rem;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-    .mobile-nav.open { display: flex; }
-    .mobile-nav a { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; text-transform: uppercase; color: var(--text-primary); }
-    /* ===== 반응형 768 ===== */
-    @media (max-width: 768px) {
-      .navbar-nav { display: none; }
-      .hamburger-menu { display: flex; }
-      .grid-2, .grid-3 { grid-template-columns: 1fr; }
-      .section { padding: 2.5rem 0; }
-      .card { padding: 1.5rem; }
-      h1 { font-size: clamp(1.8rem, 8vw, 2.8rem); }
-    }
-    /* ===== 푸터 ===== */
-    .footer {
-      background-color: var(--bg-secondary);
-      border-top: 2px solid var(--border);
-      padding: 2.5rem 0;
-      text-align: center;
-    }
-    .footer p { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
-    .footer-links { display: flex; justify-content: center; gap: 2rem; margin-top: 1rem; flex-wrap: wrap; }
-    .footer-links a { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
-
-    /* ===== 헬퍼 ===== */
-    .divider { width: 80px; height: 4px; background-color: var(--accent); margin: 1.5rem 0; }
-    .border-accent { border-color: var(--accent); }
-    .bg-card { background-color: var(--bg-card); }
-  </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="header">
+    <nav class="nav">
+      <a href="/index.html">홈</a>
+      <a href="/info.html">정보</a>
+      <a href="/contact.html">연락처</a>
+    </nav>
+  </header>
 
-<!-- ===== 네비게이션 ===== -->
-<nav class="navbar">
-  <div class="container">
-    <a href="index.html" class="navbar-brand">발산 마사지</a>
-    <div class="navbar-nav" id="desktopNav">
-      <a href="index.html">홈</a>
-      <a href="info.html" class="active" style="border-bottom-color:var(--accent);">정보</a>
-      <a href="service.html">서비스</a>
-      <a href="event.html">이벤트</a>
-      <a href="contact.html">연락처</a>
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">발산 마사지 이벤트 – 자세한 안내</h1>
+      <p class="hero-subtitle">현장에서 즉시 적용 가능한 체크포인트와 상황별 맞춤 전략을 한눈에 파악합니다.</p>
     </div>
-    <button class="hamburger-menu" id="hamburgerBtn" aria-label="메뉴 열기">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="mobile-nav" id="mobileNav">
-      <a href="index.html">홈</a>
-      <a href="info.html">정보</a>
-      <a href="service.html">서비스</a>
-      <a href="event.html">이벤트</a>
-      <a href="contact.html">연락처</a>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>이벤트 기본 구조와 운영 방식</h2>
+      <p>발산 지역에서 진행되는 대부분의 마사지 이벤트는 일정 기간 동안 특별 할인, 추가 서비스 제공, 그리고 예약 제한 등 다양한 요소를 결합합니다. 이 과정에서 운영자는 고객 흐름을 조절하고, 서비스 품질을 유지하기 위해 사전 예약 시스템을 활용합니다.</p>
+      <p>특히, 기간 한정 프로모션은 급격한 수요 증가에 대비해 인력 배치를 미리 계획하도록 요구합니다. 따라서 이벤트 전후의 인원 변동, 예약 충돌 방지, 그리고 현장 인프라 관리가 핵심 성공 요인으로 작용합니다.</p>
     </div>
-  </div>
-</nav>
+  </section>
 
-<!-- ===== 히어로 섹션 ===== -->
-<section class="section" style="padding-top:3rem;">
-  <div class="container">
-    <h1>정보</h1>
-    <p class="text-secondary" style="font-size:1.2rem; max-width:720px;">발산 마사지 이벤트의 프로토콜, 과학적 근거, 이용 기준 및 지역별 세부사항. 모든 데이터는 임상 문헌과 공식 가이드라인에 기반합니다.</p>
-    <div class="divider"></div>
-  </div>
-</section>
-
-<!-- ===== 1. 마사지 프로토콜 개요 ===== -->
-<section class="section section-dark">
-  <div class="container">
-    <h2>마사지 프로토콜</h2>
-    <div class="grid-2">
-      <div class="card card-accent">
-        <h3>근막 이완 테크닉</h3>
-        <p>정적 스트레칭과 깊은 압박을 결합하여 근막 내 점탄성을 개선. 2023년 Journal of Bodywork & Movement Therapies 메타분석에 따르면 20분 세션 후 ROM이 평균 18% 증가합니다.</p>
-        <div class="stat-number">18%</div>
-        <div class="stat-label">관절 가동범위 향상</div>
-      </div>
-      <div class="card card-accent">
-        <h3>스포츠 마사지</h3>
-        <p>근육 피로 회복을 위한 원심성 마사지 기법. 운동 후 2시간 이내 적용 시 젖산 제거율이 비적용 대비 34% 높다는 연구 결과(Scandinavian Journal of Medicine & Science in Sports, 2022).</p>
-        <div class="stat-number">34%</div>
-        <div class="stat-label">젖산 제거율 증가</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 2. 데이터 기반 효능 ===== -->
-<section class="section">
-  <div class="container">
-    <h2>과학적 근거</h2>
-    <div class="grid-3 mt-2">
+  <section class="section">
+    <div class="container">
+      <h2>상황별 체크리스트</h2>
       <div class="card">
-        <div class
+        <h3>1. 대규모 인원 유입 시</h3>
+        <p>예약 초과를 방지하려면 실시간 예약 현황을 모니터링하고, 추가 인력을 즉시 투입할 수 있는 비상 플랜을 마련해야 합니다. 또한, 대기 공간을 효율적으로 배치해 고객 만족도를 유지합니다.</p>
+        <p>대규모 이벤트에서는 사전 안내 문자와 현장 안내판을 활용해 흐름을 통제하고, 예약 시점에 예상 대기 시간을 명시하는 것이 필수입니다.</p>
+      </div>
+      <div class="card">
+        <h3>2. 소규모 맞춤 이벤트</h3>
+        <p>특정 고객군을 타깃으로 하는 맞춤형 이벤트는 개인별 상담 시간을 충분히 확보해야 합니다. 이를 위해 사전 설문을 통해 고객 니즈를 파악하고, 맞춤 프로그램을 설계합니다.</p>
+        <p>소규모 이벤트는 서비스 품질을 강조하여 재방문율을 높이는 전략이 효과적이며, 후속 피드백 수집을 통한 개선이 중요합니다.</p>
+      </div>
+      <div class="card">
+        <h3>3. 시간대별 운영 최적화</h3>
+        <p>피크 타임(저녁 6~9시)과 비피크 타임(오전 10~12시)의 예약 비율을 분석해 인력 배치를 조절합니다. 피크 타임에는 추가 테라피스트를 배치하고, 비피크 타임에는 프로모션을 통해 예약을 유도합니다.</p>
+        <p>시간대별 매출 변동을 실시간으로 파악하면, 즉각적인 가격 조정이나 서비스 구성 변경이 가능해집니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>현장 적용 시 유의사항</h2>
+      <p>이벤트 진행 중에는 위생 기준과 안전 규정을 철저히 준수해야 합니다. 특히, 대규모 인원이 모이는 경우 공기 순환과 소독 주기를 늘려야 하며, 직원 교육을 정기적으로 실시해 서비스 일관성을 확보합니다.</p>
+      <p>또한, 고객이 이벤트 조건을 명확히 이해하도록 사전 안내 문구를 강화하고, 현장에서 발생할 수 있는 오해를 최소화하는 것이 중요합니다. 이를 통해 부정적인 리뷰나 불만을 사전에 차단할 수 있습니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>자주 묻는 질문 (FAQ)</h2>
+      <div class="card">
+        <h3>Q1. 이벤트 예약은 어떻게 하나요?</h3>
+        <p>A1. 공식 홈페이지와 전화, 그리고 카카오톡 채널을 통해 실시간 예약이 가능합니다. 각 채널마다 실시간 잔여 좌석을 확인할 수 있어, 원하는 시간대를 놓치지 않을 수 있습니다.</p>
+      </div>
+      <div class="card">
+        <h3>Q2. 할인 혜택은 언제까지 적용되나요?</h3>
+        <p>A2. 대부분의 이벤트는 사전 공지된 종료일 전까지 유효합니다. 종료일이 임박할 경우 추가 연장 여부는 사전 안내를 통해 확인할 수 있습니다.</p>
+      </div>
+      <div class="card">
+        <h3>Q3. 이벤트 중 제공되는 추가 서비스는 무엇인가요?</h3>
+        <p>A3. 선택에 따라 아로마 테라피, 스팀 목욕, 그리고 맞춤형 스트레칭 프로그램을 무료로 제공받을 수 있습니다. 상세 내용은 각 이벤트 페이지에 명시돼 있습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 발산 마사지 이벤트. 모든 권리 보유.</p>
+    </div>
+  </footer>
 </body>
 </html>
